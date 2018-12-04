@@ -5,4 +5,5 @@
 - mouse click on div element with id=chatbox, class=chat: enter typing mode and enable keyboard interactions.
 - div element with id=statistics; updates the statistics in a given interval.
 - div element with id=chatlog, class=chat: updates the chat for new messages.
-- div element with id=board, updates the board whenever a player makes a move.
+- div element with id=board: updates the board whenever a player makes a move.
+- div element with id=state: updates the game according to the current state of the game(eg, win,loss,waiting for player).
