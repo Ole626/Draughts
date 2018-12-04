@@ -17,15 +17,3 @@ a {
   text-align: center;
   vertical-align: middle;
 }
-
-.stone{
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: inline-block;
-  border: 1px solid white;
-}
-
-#black{
-  border: 1px solid black;
-}

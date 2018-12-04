@@ -3,14 +3,21 @@
 <html>
     <head>
         <title>Draughts game</title>
-        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="stylesheet" href="stylesheets/game.css">
     </head>
 
     <body>
-        <main>
+        <main> 
+            <section id="left">
+                <textarea cols="30" rows="10"></textarea>
+                <label>Chat: </label>
+                <input type="text" name="chat_message">
+                <div id="exit" class="button">Back to menu</div>
+            </section>
+            
             <section id="middle">
-                <div id="TagOpponent">Waiting for opponent</div>
-
+                <div id="TagOpponent" class="tag">Waiting for opponent</div>
+    
                 <section id="board">
                     <div id="white" class="stone"></div>
                     <div id="white" class="stone"></div>
@@ -37,22 +44,17 @@
                     <div id="black" class="stone"></div>
                     <div id="black" class="stone"></div>
                 </section>
-
-                <div id ="TagYou">You</div>
-            </section> 
-            <section id="right">
-                <div>Opponent pieces: 0</div>
-                <div>Opponent moves: 0</div>
-                <div>Time playing: 0</div>
-                <div>Turn: 0</div>
-                <div>Your pieces: 0</div>
-                <div>Your moves: 0</div>
+    
+                <div id ="TagYou" class="tag">You</div>
             </section>
-            <section id="left">
-                <textarea cols="30" rows="10"></textarea>
-                <label>Chat: </label>
-                <input type="text" name="chat_message">
-                <div id="exit" class="button">Back to menu</div>
+
+            <section id="right">
+                    <div>Opponent pieces: 0</div>
+                    <div>Opponent moves: 0</div>
+                    <div>Time playing: 0</div>
+                    <div>Turn: 0</div>
+                    <div>Your pieces: 0</div>
+                    <div>Your moves: 0</div>
             </section>
         </main>
     </body>
