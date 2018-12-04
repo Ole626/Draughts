@@ -3,44 +3,59 @@
 <html>
     <head>
         <title>Draughts game</title>
+        <link rel="stylesheet" href="stylesheets/game.css">
     </head>
 
     <body>
-        <section>
-            <a href="splash.html">Splashscreen</a>
-            <hr>
-            <div>Waiting for opponent</div>
-            <br>
-            <div>
-                <img src="draughts_board.jpg" alt="Draughts board">
-            </div>
-            <br>
-            <div>You</div>
-        </section> 
-        <section>
-            <br>
-            <div>Opponent pieces: 0</div>
-            <div>Opponent moves: 0</div>
-            <br>
-            <div>Time playing: 0</div>
-            <div>Turn: 0</div>
-            <br>
-            <div>Your pieces: 0</div>
-            <div>Your moves: 0</div>
-            <br>
-        </section>
-        <section>
-            <textarea cols="30" rows="10"></textarea>
-            <br>
-            <label>Chat: </label>
-            <input type="text" name="chat_message">
-        </section>
-        <br>
-        <section>
-                <div>
-                    <button type="submit">Back to menu</button>
-                </div>
-        </section> 
+        <main> 
+            <section id="left">
+                <textarea cols="30" rows="10"></textarea>
+                <label>Chat: </label>
+                <input type="text" name="chat_message">
+                <div id="exit" class="button">Back to menu</div>
+            </section>
+            
+            <section id="middle">
+                <div id="TagOpponent" class="tag">Waiting for opponent</div>
+    
+                <section id="board">
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="white" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                    <div id="black" class="stone"></div>
+                </section>
+    
+                <div id ="TagYou" class="tag">You</div>
+            </section>
 
+            <section id="right">
+                    <div>Opponent pieces: 0</div>
+                    <div>Opponent moves: 0</div>
+                    <div>Time playing: 0</div>
+                    <div>Turn: 0</div>
+                    <div>Your pieces: 0</div>
+                    <div>Your moves: 0</div>
+            </section>
+        </main>
     </body>
 </html>
