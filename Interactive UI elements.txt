@@ -1,0 +1,3 @@
+- mouse hover on div element with id=stone: if the stone is enabled(i.e. if its your stone), show an indicator around the stone, else do nothing
+- mouse click on div element with id=stone: let the indicator stay around the stone, enable all options for that particular stone, if clicked on a valid option, move the stone to that location, if it moves over an opponents' stone, disable the opponents stone
+- div element with id=stone reached the end of the board: change the stone to a king stone that can move in any direction
