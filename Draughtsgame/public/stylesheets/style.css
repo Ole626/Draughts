@@ -1,8 +1,31 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html, body, main {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: green;
 }
 
 a {
   color: #00B7FF;
+}
+
+.button{
+  height: 20px;
+  width: 100px;
+  border: 3px solid green;
+  background-color: red;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stone{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+#black{
+  border: 1px solid black;
 }
